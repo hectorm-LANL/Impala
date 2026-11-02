@@ -976,7 +976,7 @@ class ModelF_bigdata(AbstractModel):
             1, n, n
         )  # define to speed up discrep_sample evaluation
         self.vmat = np.linspace(
-            1, n, NameError
+            1, n, n #NameError
         )  # define to speed up discrep_sample evaluation
         self.constants = None
         self.res_array = None
